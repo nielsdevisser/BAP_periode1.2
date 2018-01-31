@@ -13,10 +13,10 @@
 
 <?php
 // DATABASE-VARIABELEN AANMAKEN (LET OP: VERANDER JE DATABASENAAM)
-$host = 'localhost:8888';
+$host = 'localhost';
 $user = 'root';
 $password = 'root';
-$database = '24703';
+$database = '24651';
 // CONNECTIE MAKEN
 $dbc = mysqli_connect($host,$user,$password,$database) or die ('Er is geen connectie met de database. Check je databasevariabelen.');
 // QUERY (OPDRACHT) SCHRIJVEN
